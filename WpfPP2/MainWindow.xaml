@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfPP2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfPP2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+            </Grid.RowDefinitions>
+            <TextBox x:Name="textpole"></TextBox>
+            <DataGrid x:Name="CybersportDataGrid" Background="Black"/>
+            <Button x:Name="Efknopka" Content="EF" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,200"  Height="70" Width="142" Click="Efknopka_Click" Background="White" Foreground="Red"/>
+            <Button x:Name="DataSetknopka" Content="DataSet" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,0"  Height="70" Width="142" Click="DataSetknopka_Click" Background="White" Foreground="Green"/>
+            <Button x:Name="Exitknopka" Content="Выход" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,-200" Height="70" Width="142" Click="Exitknopka_Click" Background="White" Foreground="Black"/>
+        </Grid>
+    </Grid>
+</Window>
